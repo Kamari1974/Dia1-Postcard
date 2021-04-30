@@ -10,3 +10,8 @@ ports:
 tasks:
   - init: echo 'init script' # runs during prebuild
     command: learnpack start
+
+vscode:
+  extensions:
+    - ritwickdey.liveserver@5.6.1:e4c865d51815543708ca6d7adf1f2bfb
+    - yandeu.five-server@0.0.29:45503b47349e4c6dd80c1f40aa7f50b7
